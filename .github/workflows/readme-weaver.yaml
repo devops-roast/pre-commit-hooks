@@ -1,0 +1,19 @@
+---
+name: readme-weaver
+
+permissions:
+  id-token: write
+  contents: write
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - "main"
+
+jobs:
+  readme-weaver:
+    uses: devops-roast/github-actions/.github/workflows/readme-weaver.yaml@main
+    with:
+      auto_commit: true
+    secrets: inherit
