@@ -3,9 +3,7 @@
 pre-commit-hooks
 
 <!-- md:include start path="sponsorship.md" required=true -->
-
 <!-- content below is auto-generated; do not edit -->
-
 ## Sponsorship
 
 <div align="center">
