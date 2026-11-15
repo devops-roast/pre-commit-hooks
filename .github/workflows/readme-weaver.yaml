@@ -13,7 +13,7 @@ on:
 
 jobs:
   readme-weaver:
-    uses: devops-roast/github-actions/.github/workflows/readme-weaver.yaml@main
+    uses: devops-roast/github-actions/.github/workflows/readme-weaver.yaml@fix/readme-weaver-partials
     with:
       auto_commit: true
     secrets: inherit
